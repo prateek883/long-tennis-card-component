@@ -104,8 +104,8 @@ export default function FullWidthGrid() {
                 <Tabs
                   value={value}
                   onChange={handleChange}
-                  variant="scrollable"
                   color="secondary"
+                  variant="scrollable"
                   aria-label="visible arrows tabs example"
                   sx={{
                     [`& .${tabsClasses.scrollButtons}`]: {
