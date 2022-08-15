@@ -114,7 +114,7 @@ export default function FullWidthGrid() {
                   }}
                 >
                   <Tab
-                    label="QATAR EXXONMOBIL OPEN"
+                    label="QATAREXXONMOBIL OPEN"
                     {...a11yProps(0)}
                     className={styles.tabContainer}
                   />

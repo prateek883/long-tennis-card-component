@@ -20,8 +20,6 @@
     font-family: 'Roboto', 'Segoe UI', Arial, Helvetica, Sans-Serif;
     font-size: 24px;
     padding-left: 2%;
-    margin-top: 4px;
-    line-height: 24px;
   }
 
   .seasonYear {
@@ -58,6 +56,50 @@
     padding: 10% 5% 2% 5%;
     height: 515px;
   }
+
+  .notificationIcon {
+    color: #fafafa;
+  }
+
+  .cardHeader {
+    background-color: #00486a;
+    height: 3.5em;
+  }
+
+  .cardTitle {
+    color: #fafafa;
+    display: inline-block;
+    font-family: 'Roboto', 'Segoe UI', Arial, Helvetica, Sans-Serif;
+    font-size: 24px;
+    padding-left: 2%;
+    margin-top: 4px;
+    line-height: 24px;
+  }
+
+  .seasonYear {
+    padding-top: 0%;
+    font-size: 14px !important;
+    font-family: 'Roboto', 'Segoe UI', Arial, Helvetica, Sans-Serif;
+  }
+
+  .tabContainer {
+    font-weight: 700 !important;
+    font-size: 10px;
+    font-family: 'Arial', Arial, Helvetica, sans-serif;
+    width: 40%;
+  }
+
+  .tabPanelContainer {
+    background-color: rgb(243, 243, 243);
+  }
+
+  .seasonYear {
+    font-size: 10px;
+  }
+
+  .cardContainer {
+    border-radius: 6px !important;
+  }
 }
 
 /* Tablet View */
@@ -65,5 +107,48 @@
   .ContentContainer {
     padding: 4% 5% 2% 5%;
     height: 265px;
+  }
+
+  .notificationIcon {
+    color: #fafafa;
+  }
+
+  .cardHeader {
+    background-color: #00486a;
+    height: 3.5em;
+  }
+
+  .cardTitle {
+    color: #fafafa;
+    display: inline-block;
+    font-family: 'Roboto', 'Segoe UI', Arial, Helvetica, Sans-Serif;
+    font-size: 24px;
+  }
+
+  .seasonYear {
+    padding-top: 0%;
+    font-size: 14px !important;
+    font-family: 'Roboto', 'Segoe UI', Arial, Helvetica, Sans-Serif;
+  }
+
+  .tabContainer {
+    font-weight: 700 !important;
+    font-size: 14px;
+    font-family: 'Arial', Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    padding: 0% 1% 0% 1%;
+    width: 50%;
+  }
+
+  .tabPanelContainer {
+    background-color: rgb(243, 243, 243);
+  }
+
+  .seasonYear {
+    font-size: 10px;
+  }
+
+  .cardContainer {
+    border-radius: 6px !important;
   }
 }
